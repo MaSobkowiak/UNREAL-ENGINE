@@ -33,13 +33,13 @@ bool PlayGame(int Difficulty)
 
     //Check if input mached
 
-    //Win
+    //Win 
     if (GuessSum == CodeSum && GuessProduct == CodeProduct)
     {
         std::cout << "\n----- XXX match!! -----\n";
         return true;
     }
-    
+
     //lose
     else
     {
@@ -50,7 +50,7 @@ bool PlayGame(int Difficulty)
 
 int main()
 {
-    srand(time(NULL)); //create new random sequence based on time 
+    srand(time(NULL)); //create new random sequence based on time
 
     int LevelDifficulty = 1;
     const int MaxDifficulty = 10;
