@@ -36,8 +36,8 @@
 .vscode/*
 
 #Unreal Engine
-Build/*
-Intermediate/*
-Binaries/*
-Saved/*
-DerivedDataCache/*
+Build/
+Intermediate/
+Binaries/
+Saved/
+DerivedDataCache/
