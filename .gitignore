@@ -41,3 +41,6 @@ Intermediate/
 Binaries/
 Saved/
 DerivedDataCache/
+
+#ignore starter content for this project
+Building Escape/BuildingEscape/Content/StarterContent/
